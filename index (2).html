@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avon - Discord Music Bot</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+       <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header>
+<div class="logo">
+<img src="https://i.ibb.co/Z2d9gYD/images-7-1.jpg" alt="Avon">
+<h1>Avon</h1>
+</div>
+<div class="hamburger" onclick="toggleMenu()">☰</div>
+<nav id="navbar">
+<a href="#features" onclick="closeMenu()">Features</a>
+<a href="#commands" onclick="closeMenu()">Commands</a>
+<a href="#image-showcase" onclick="closeMenu()">Snippets</a>
+<a href="https://discord.gg/PhCZDRmREv" target="_blank" onclick="closeMenu()">Support</a>
+<a href="https://discord.com/oauth2/authorize?client_id=904317141866647592&permissions=8&scope=bot" target="_blank" onclick="closeMenu()">Add to Discord</a>
+</nav>
+</header>
+
+<div class="hero">
+<h2>True Definition of a Music Bot</h2>
+<a class="cta-button" href="https://discord.com/oauth2/authorize?client_id=904317141866647592&permissions=8&scope=bot" target="_blank">Get Started</a>
+</div>
+
+<section id="features">
+<h2>Features</h2>
+<div class="feature">
+<h3>🎶 High-Quality Music Playback</h3>
+<p>Enjoy crystal clear audio from your favorite music platforms.</p>
+</div>
+<div class="feature">
+<h3>🔊 Queue Management</h3>
+<p>Create and manage your Queue easily with simple commands.</p>
+</div>
+<div class="feature">
+<h3>📡 Multi-Platform Support</h3>
+<p>Stream music from YouTube, Spotify, and more!</p>
+</div>
+</section>
+
+<section id="commands">
+<h2>Commands</h2>
+<div class="command-category" onclick="toggleCommandList(this)">
+<strong>🎵 Music</strong>
+
+<div class="command-list">
+<p><strong>+backward</strong> - Rewind the song by a custom time or -10 seconds by default.
+</p>
+<p><strong>+bump</strong> - Bump a specific song from the queue to the front.
+</p>
+<p><strong>+clear</strong> - Clear the Queue!
+</p>
+<p><strong>+forward</strong> - Forward the song by a custom time or +10 seconds by default.
+</p>
+<p><strong>+join</strong> - Avon joins the voice channel.
+</p>
+<p><strong>+leave</strong> - Avon leaves the voice channel.
+</p>
+<p><strong>+loop</strong> - Loop the Queue, track or off!
+</p>
+<p><strong>+lyrics</strong> - Get the Lyrics of the Current Playing Song.
+</p>
+<p><strong>+pause</strong> - Pause the Music!.
+</p>
+<p><strong>+play</strong> - Play a song of your favorite choice.
+</p>
+<p><strong>+previous</strong> - Play the Previous Music!
+</p>
+<p><strong>+queue</strong> - Show the Queue!
+</p>
+<p><strong>+replay</strong> - Replay the Music!
+</p>
+<p><strong>+resume</strong> - Resume the Music!
+</p>
+<p><strong>+search</strong> - search a song of your favorite choice.
+</p>
+<p><strong>+seek</strong> - Seek to a specific time in the currently playing song.
+</p>
+<p><strong>+shuffle</strong> - Shuffle the Queue!
+</p>
+<p><strong>+singwithme</strong> - Sing With Lyrics.
+</p>
+<p><strong>+skip</strong> - Skips the Music!
+</p>
+<p><strong>+stop</strong> - Stop the Music!
+</p>
+</div>
+</div>
+<div class="command-category" onclick="toggleCommandList(this)">
+<strong>ℹ️ Misc</strong>
+
+<div class="command-list">
+<p><strong>+eval</strong> - undefined.
+</p>
+<p><strong>+noPrefix</strong> - undefined.
+</p>
+<p><strong>+avatar</strong> - Get the Avatar of a User.
+</p>
+<p><strong>+help</strong> - Displays all available commands or details for a specific command.
+</p>
+<p><strong>+invite</strong> - Get the Invite Link of the Bot.
+</p>
+<p><strong>+invites</strong>- Get the invites of the server or a user invites.
+</p>
+<p><strong>+ping</strong> - Get the Ping of the Bot and some advanced networking stats.
+</p>
+<p><strong>+stats</strong> - Get detailed bot statistics and system information.
+</p>
+<p><strong>+support</strong> - Get the Support Server Link of the Bot.
+</p>
+<p><strong>+vanity-info</strong> - Get the Information of a Vanity URL Server.
+</p>
+<p><strong>+vote</strong> - Get the Invite Link of the Bot.
+</p>
+</div>
+</div>
+<div class="command-category" onclick="toggleCommandList(this)">
+<strong>🧹 Filters </strong>
+<div class="command-list">
+<p><strong>+balanced</strong> - Apply Balanced Filter to the Music!.
+</p>
+<p><strong>+bassboost</strong> - Apply the Bass boost Filter.
+</p>
+<p><strong>+classical</strong> - Apply the Classical Filter.
+</p>
+<p><strong>+electronic</strong> - Apply the Electronic Filter.
+</p>
+<p><strong>+flat</strong> - Removes all filters from the music.
+</p>
+<p><strong>+treblebass</strong> - Applies the treble filter to the current song.
+</p>
+<p><strong>+vocal-boost</strong> - Apply the Vocal Boost Filter.
+</p>
+</div>
+</div>
+<div class="command-category" onclick="toggleCommandList(this)">
+<strong>⚙️ Settings</strong>
+<div class="command-list">
+<p><strong>+247</strong> - Toggle the 24/7 Mode.
+</p>
+<p><strong>+autoplay</strong> - Toggle the Autoplay Feature.
+</p>
+<p><strong>+prefix</strong> - Change the Prefix of the Bot in the Server.
+</p>
+<p><strong>+quality</strong> - Change the quality of the music.
+</p>
+<p><strong>+server-volume</strong> - Change the Volume of the Bot in the Server.
+</p>
+</div>
+</div>
+</section>
+
+<section id="image-showcase">
+<h2>Some snippets of bot user!</h2>
+<div class="image-showcase">
+<img src="https://i.ibb.co/FBkMJSh/Help.jpg" alt="Help">
+<img src="https://i.ibb.co/By3F557/Play.jpg" alt="Play">
+<img src="https://i.ibb.co/p1FgQqp/Search.jpg" alt="Search">
+<img src="https://i.ibb.co/2FhPSZg/Stats.jpg" alt="Stats">
+</div>
+</section>
+
+<section id="support">
+<h2>Support</h2>
+<p>If you need help or have any questions, feel free to join our support server!</p>
+<a class="cta-button" href="https://discord.gg/PhCZDRmREv" target="_blank">Join Support Server</a>
+</section>
+
+<footer>
+<p>&copy; 2024 Avon Music Bot. All rights reserved.</p>
+</footer>
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>
