@@ -10,8 +10,6 @@ Avon is a powerful and customizable Discord music bot framework that simplifies 
 
 - **High-Quality Audio**: Avon ensures a high-quality music listening experience with support for various audio sources and formats.
 
-- **Documentation**: Extensive documentation is available to guide you through the setup process, command usage, and customization options.
-
 ## Support
 
 If you have any questions or need assistance, feel free to join our [Discord server](https://discord.gg/KJXHTatTRr) for community support.
