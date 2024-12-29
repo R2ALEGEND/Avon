@@ -4,6 +4,10 @@ body {
     font-family: "Roboto", Arial, sans-serif;
     background-color: var(--background-color);
     color: var(--text-color);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 :root {
   --primary-color: #8B5DFF;
