@@ -222,7 +222,7 @@ body.no-scroll {
 }
 
 .header-title {
-    font-size: 38px;
+    font-size: 48px;
     color: var(--accent-color);
     margin: 0;
     font-weight: bold;
@@ -434,8 +434,5 @@ body.no-scroll {
     }
     .footer-section.links {
       padding: 0px 0px 0px 30px;
-    }
-    .header-title {
-      font-size: 48px;
     }
 }
