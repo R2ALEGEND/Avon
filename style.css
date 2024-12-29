@@ -366,7 +366,7 @@ body.no-scroll {
   z-index: 5;
   background-image: url(download.png);
   background-size: cover;
-  background-color: #979797;
+  background-color: var(--primary-color);
   border: none;
   border-radius: 50%;
   width: 40px;
